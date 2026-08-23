@@ -1,0 +1,29 @@
+{
+  "name": "zona-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "stdio MCP server that sends Zona inbox notifications from AI CLIs",
+  "bin": {
+    "zona-mcp": "./server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "SKILL.md",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "zona",
+    "mcp",
+    "notifications"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.25.0"
+  }
+}
