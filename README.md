@@ -82,7 +82,8 @@ Content-Type: application/json
 ```
 
 Pictures use `multipart/form-data` and repeat the `attachment` part once per
-file (max five). Full sender guide:
+file (max five).
+Full sender guide:
 [Send alerts to Zona](https://gist.github.com/terri-yaki/b1cdbf91263f139f928de292f788d5bc).
 
 ## Agent skill
